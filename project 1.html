@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <style>
+        body{
+            color: white;
+          background-image: url("in.webp");
+          background-repeat:no-repeat ;
+          background-position-x: center;
+           }
+.left{
+    display: inline-block;
+    text-decoration-color: white;
+    position: absolute;
+    left: 34px;
+    top: 10px;
+}
+.left img{
+    width: 100px;
+    height: 70px;
+
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+    
+}
+.right{
+    
+    position: absolute;
+    right: 34px;
+    top: 10px;
+}
+.navbar li{
+    display: inline-block;
+    padding: 10px;
+}
+.navbar li a{
+    text-decoration : none;
+    color: yellow;
+}
+.navbar li a:hover{
+    color:red;
+}
+.btn{
+    color: white;
+    background-color: rgb(39, 38, 38);
+    padding: 5px 14px;
+    margin: opx 13px;
+    border-radius: 7px;
+}
+.btn:hover{
+    background-color: blue;
+}
+.Container{
+     margin: 50px ;
+     border:#ffffff 2px solid ;
+     width: 33%;
+     border-radius: 13px;
+     padding: 10px;
+     padding-left: 50px;
+     align-items: center;
+}
+.Container input{
+    width: 250px;
+    text-align: center;
+    padding: 7px;
+    margin: 7px;
+    margin-left: 60px;
+
+}
+.Container h3{
+    text-align: center;
+    
+}
+.Container button{
+    width: 150px;
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+    <div class="left">
+ <img src="download.jpg">
+ 
+    </div>
+    <div class="mid">
+    <ul class="navbar">
+        <li><a href="">home </a></li>
+        <li><a href="">About us</a> </li>
+        <li><a href="">Fitness calculator</a> </li>
+        <li><a href="">Contact us</a> </li>
+    </ul>
+    </div>
+    <div class="right">
+ <button class="btn">Call us now </button>
+ <button class="btn">Email us</button>
+    </div>
+    </header>
+    <div class="Container">
+<h3>JOIN THE BEST GYM OF LATUR NOW.</h3>
+<form action="noaction-php">
+<input class="in" type="text" placeholder="Enter name">
+<input class="in" type="text" placeholder="Enter age">
+<input class="in" type="text" placeholder="Enter number">
+<input class="in" type="text" placeholder="Enter gender">
+    <button class="btn">submit</button>
+</form>
+    </div>
+</body>
+</html>
